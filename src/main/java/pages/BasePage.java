@@ -12,7 +12,7 @@ public class BasePage {
 	WebDriver driver;
 	WebDriverWait wait;
 
-	public BasePage() {
+	public BasePage(WebDriver driver) {
 		wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 	}
 

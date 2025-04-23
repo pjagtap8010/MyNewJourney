@@ -1,63 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-18T20:24:02 IST" name="Default suite" finished-at="2025-04-18T20:24:04 IST" duration-ms="1794">
+  <suite started-at="2025-04-23T21:35:24 IST" name="Default suite" finished-at="2025-04-23T21:36:04 IST" duration-ms="39554">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@52719fb6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:uiappfeatures.AmazonTestRunner@52719fb6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-18T20:24:02 IST" name="Default test" finished-at="2025-04-18T20:24:04 IST" duration-ms="1794">
-      <class name="runner.LoginRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.LoginRunner@52719fb6]" started-at="2025-04-18T20:24:03 IST" name="setUpClass" finished-at="2025-04-18T20:24:03 IST" duration-ms="843" status="PASS">
+    <test started-at="2025-04-23T21:35:24 IST" name="Default test" finished-at="2025-04-23T21:36:04 IST" duration-ms="39554">
+      <class name="uiappfeatures.AmazonTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:uiappfeatures.AmazonTestRunner@52719fb6]" started-at="2025-04-23T21:35:24 IST" name="setUpClass" finished-at="2025-04-23T21:35:26 IST" duration-ms="1826" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5b970f7]]>
+                <![CDATA[org.testng.TestRunner@7d979d34]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@52719fb6]" started-at="2025-04-18T20:24:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-18T20:24:04 IST" duration-ms="555" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:uiappfeatures.AmazonTestRunner@52719fb6]" started-at="2025-04-23T21:35:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-23T21:35:34 IST" duration-ms="7738" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Login to application"]]>
+                <![CDATA["verify title of page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login functionality"]]>
+                <![CDATA["Home page functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@52719fb6]" started-at="2025-04-18T20:24:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-18T20:24:04 IST" duration-ms="144" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:uiappfeatures.AmazonTestRunner@52719fb6]" started-at="2025-04-23T21:35:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-23T21:35:40 IST" duration-ms="6118" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["title verification"]]>
+                <![CDATA["verify cart icon"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login functionality"]]>
+                <![CDATA["Home page functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.LoginRunner@52719fb6]" started-at="2025-04-18T20:24:04 IST" name="tearDownClass" finished-at="2025-04-18T20:24:04 IST" duration-ms="21" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:uiappfeatures.AmazonTestRunner@52719fb6]" started-at="2025-04-23T21:35:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-23T21:36:02 IST" duration-ms="22158" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["checkout the deal section"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a class="a-link-normal" href="/b/?_encoding=UTF8&amp;node=6802110031&amp;pd_rd_w=wbKSI&amp;content-id=amzn1.sym.33932505-c26f-4e86-8830-3d0a996c61c3&amp;pf_rd_p=33932505-c26f-4e86-8830-3d0a996c61c3&amp;pf_rd_r=BZC7MY06CGD7FHYWDGQ0&amp;pd_rd_wg=t10R1&amp;pd_rd_r=40421c9c-605f-4ace-99da-d48ced004e13&amp;ref_=pd_hp_d_hero_unk">...</a> is not clickable at point (674, 344). Other element would receive the click: <div id="gw-card-layout" data-grid-breakpoint="ws" data-flow-dir="h" class="a-section a-spacing-none gw-card-layout">...</div>
+  (Session info: chrome=130.0.6723.92)
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [765394b3b1cbc02a542002b2e037be65, clickElement {id=f.62BD39B0BC8AC8341C7526A12B2500C6.d.F31A5033AED85BAD492DCBDACECC9849.e.120}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49208/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (765394b3b1cbc02a542002b2e037be65)] -> xpath: //*[@alt='Daily essentials']/parent::a]
+Session ID: 765394b3b1cbc02a542002b2e037be65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="a-link-normal" href="/b/?_encoding=UTF8&amp;node=6802110031&amp;pd_rd_w=wbKSI&amp;content-id=amzn1.sym.33932505-c26f-4e86-8830-3d0a996c61c3&amp;pf_rd_p=33932505-c26f-4e86-8830-3d0a996c61c3&amp;pf_rd_r=BZC7MY06CGD7FHYWDGQ0&amp;pd_rd_wg=t10R1&amp;pd_rd_r=40421c9c-605f-4ace-99da-d48ced004e13&amp;ref_=pd_hp_d_hero_unk">...</a> is not clickable at point (674, 344). Other element would receive the click: <div id="gw-card-layout" data-grid-breakpoint="ws" data-flow-dir="h" class="a-section a-spacing-none gw-card-layout">...</div>
+  (Session info: chrome=130.0.6723.92)
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [765394b3b1cbc02a542002b2e037be65, clickElement {id=f.62BD39B0BC8AC8341C7526A12B2500C6.d.F31A5033AED85BAD492DCBDACECC9849.e.120}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49208/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (765394b3b1cbc02a542002b2e037be65)] -> xpath: //*[@alt='Daily essentials']/parent::a]
+Session ID: 765394b3b1cbc02a542002b2e037be65
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at pages.HomePage.checkoutDealsSection(HomePage.java:52)
+at uiappfeatures.HomePageSteps.user_clicks_on_deals(HomePageSteps.java:46)
+at ✽.user clicks on deals(file:///F:/Desktop/VimanNagar/May%2021/ATT29MarchBDDCucumberBasics/src/test/resources/uiappfeatures/Homepage.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:uiappfeatures.AmazonTestRunner@52719fb6]" started-at="2025-04-23T21:36:02 IST" name="tearDownClass" finished-at="2025-04-23T21:36:04 IST" duration-ms="1553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.LoginRunner -->
+      </class> <!-- uiappfeatures.AmazonTestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
