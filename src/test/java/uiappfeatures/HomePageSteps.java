@@ -54,21 +54,4 @@ public class HomePageSteps {
 	 Assert.assertEquals(isPresent, true);
 	}
 
-
-
-	@Then("user should redirect to essential section{int}")
-	public void userShouldRedirectToEssentialSection(int arg0) {
-	}
-
-	@Given("user is at landing page{int}")
-	public void userIsAtLandingPage(int arg0) {
-	}
-
-	@When("user clicks on deals{int}")
-	public void userClicksOnDeals(int arg0) {
-	}
-
-	@Then("user should redirect to essentials section{int}")
-	public void userShouldRedirectToEssentialsSection(int arg0) {
-	}
 }

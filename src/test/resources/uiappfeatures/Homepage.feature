@@ -11,11 +11,3 @@ Scenario: checkout the deal section
 Given user is at landing page
 When user clicks on deals
 Then user should redirect to essentials section
-
-
-
-  Scenario: checkout the deal section1
-    Given user is at landing page1
-    When user clicks on deals1
-    Then user should redirect to essentials section1
-    Then user should redirect to essential section2
