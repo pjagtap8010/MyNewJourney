@@ -55,5 +55,7 @@ public class HomePageSteps {
 	}
 
 
-
+	@Given("user is at landing page {string}")
+	public void userIsAtLandingPage(String acv) {
+	}
 }

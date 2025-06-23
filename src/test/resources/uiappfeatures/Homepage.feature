@@ -12,4 +12,8 @@ Given user is at landing page
 When user clicks on deals
 Then user should redirect to essentials section
 
+  Scenario: checkout the deal section
+    Given user is at landing page "a"
+
+
 
