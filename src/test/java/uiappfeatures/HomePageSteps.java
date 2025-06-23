@@ -54,6 +54,4 @@ public class HomePageSteps {
 	 Assert.assertEquals(isPresent, true);
 	}
 
-
-
 }
